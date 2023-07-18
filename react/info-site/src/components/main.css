@@ -1,11 +1,11 @@
 .container {
   background-color: #282D35;
   height: 94vh;
-  padding: 20px 25px;
+
 }
 
 h1 {
-  padding: 20px 0;
+  padding: 40px 25px;
   color: #fff;
 }
 
@@ -31,4 +31,11 @@ ul li::before {
 
 li {
   color: #fff;
+}
+
+/* line up with list and align right side */
+.logo {
+  position: absolute;
+  right: 0;
+  top: 10vh;
 }

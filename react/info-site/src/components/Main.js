@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import Img from '../assets/Group.png'
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <img className='logo' src={Img} alt='react logo' />
     </div>
   )
 }
